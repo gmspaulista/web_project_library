@@ -189,6 +189,7 @@
 }
 .events__content {
   flex-basis: 580px;
+  z-index: 1;
 }
 
 .events__heading {
@@ -254,8 +255,6 @@
   flex-basis: 780%;
   max-width: 780px;
   position: relative;
-  right: 20px;
-  top: 135px;
 }
 
 .events__image {
@@ -278,7 +277,6 @@
 }
 
 .person_name_burbidge {
-  background-image: url(images\person_burbidge.png);
   top: 96px;
   right: 125px;
   position: absolute;
