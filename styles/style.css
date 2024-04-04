@@ -259,7 +259,6 @@
 }
 
 .events__image {
-  /*Config. da imagem do Office*/
   max-width: 100%;
 }
 
@@ -276,8 +275,6 @@
   top: -30px;
   left: 319px;
   position: absolute;
-
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_burbidge {
@@ -285,7 +282,6 @@
   top: 96px;
   right: 125px;
   position: absolute;
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_cannon {
@@ -293,8 +289,6 @@
   bottom: 18px;
   right: 216px;
   position: absolute;
-
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_mitchell {
@@ -302,8 +296,6 @@
   bottom: 82px;
   left: 142px;
   position: absolute;
-
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_tarter {
@@ -311,8 +303,6 @@
   top: 79px;
   left: 159px;
   position: absolute;
-
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person__image {
