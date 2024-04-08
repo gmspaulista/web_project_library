@@ -395,7 +395,6 @@
 .footer__column_content_hours {
   font-family: arial, sans-serif;
   height: 80px;
-  margin-left: auto;
 }
 
 .footer__column_content_social {
@@ -452,5 +451,6 @@
 
 .footer__copyright {
   display: flex;
+  margin-top: 0 auto;
   padding: 100px 0 60px;
 }
