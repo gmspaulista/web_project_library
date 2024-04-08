@@ -345,8 +345,6 @@
   margin: 100px 0 0px;
   display: flex;
   justify-content: center;
-
-  /* Adicione estilos */
 }
 
 .step {
@@ -378,7 +376,7 @@
   background-color: #1f1f1f;
   letter-spacing: 1px;
   width: 100%;
-  color: #f2f2f2;
+  color: #ffffff;
   font-size: 16px;
   line-height: 20px;
   padding: 60px 80px;
@@ -405,13 +403,13 @@
 
 .footer__logo {
   padding-bottom: 100px;
-  width: 56px;
+  width: 58px;
   height: 80px;
   margin-right: auto;
 }
 
 .footer__column-heading {
-  margin-top: auto;
+  margin-top: 0 auto 20px;
   font-size: 16px;
   line-height: 20px;
 }
@@ -424,7 +422,7 @@
 }
 
 .footer__list-item {
-  margin-top: 16px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 20px;
 }
@@ -433,6 +431,9 @@
   color: white;
   text-decoration: none;
   line-height: 20px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-icon {
@@ -443,5 +444,5 @@
 
 .footer__copyright {
   display: flex;
-  margin-top: 60px;
+  padding: 0 0 60px;
 }
