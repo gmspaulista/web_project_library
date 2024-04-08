@@ -323,3 +323,129 @@
   font-size: 14px;
   margin: 0;
 }
+/*Parte 3 do Projeto*/
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0px;
+  display: flex;
+  justify-content: center;
+
+  /* Adicione estilos */
+}
+
+.step {
+  margin: 40px;
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  letter-spacing: 1px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 60px 80px;
+}
+/*
+.footer__column {
+  display: flex;
+  ds;
+}
+*/
+.footer__columns {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.footer__column_content_hours {
+  font-family: arial, sans-serif;
+  height: 80px;
+}
+
+.footer__column_content_social {
+  font-family: Arial, sans-serif;
+  height: 80px;
+}
+
+.footer__logo {
+  padding-bottom: 100px;
+  width: 56px;
+  height: 80px;
+  margin-right: auto;
+}
+
+.footer__column-heading {
+  margin-top: auto;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list {
+  /* O código abaixo remove os estilos do navegador padrão para listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.footer__social-icon {
+  content: 16px 16px;
+  line-height: 16px;
+  padding-right: 10px;
+}
+
+.footer__copyright {
+  display: flex;
+  margin-top: 60px;
+}
