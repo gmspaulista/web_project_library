@@ -395,6 +395,7 @@
 .footer__column_content_hours {
   font-family: arial, sans-serif;
   height: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
