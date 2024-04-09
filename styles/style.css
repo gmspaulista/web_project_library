@@ -391,7 +391,6 @@
   display: flex;
   justify-content: space-evenly;
   padding: 60px 80px;
-  border-style: solid;
 }
 
 .footer__column_content_hours {
