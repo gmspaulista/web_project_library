@@ -383,13 +383,13 @@
   padding: 60px 80px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .footer__columns {
   font-family: Arial, sans-serif;
   color: #ffffff;
   display: flex;
-  justify-content: space-evenly;
   padding: 60px 80px;
 }
 
@@ -406,11 +406,11 @@
 }
 
 .footer__logo {
+  display: flex;
+
   width: 58px;
   height: 80px;
   margin-right: auto;
-  display: flex;
-  position: absolute;
   left: 80px;
 }
 
@@ -452,7 +452,8 @@
 }
 
 .footer__copyright {
-  display: flex;
   margin-top: 100px;
-  padding: 100px 0 60px;
+  position: relative;
+  left: auto;
+  padding: 0 0 60px 80px;
 }
